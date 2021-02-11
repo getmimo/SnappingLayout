@@ -29,7 +29,7 @@
 
 /* Begin PBXFileReference section */
 		23EE746B93EFBC0FDB1BD99D /* Pods-SnappingLayout_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnappingLayout_Tests.release.xcconfig"; path = "Target Support Files/Pods-SnappingLayout_Tests/Pods-SnappingLayout_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		4AA75FB41986B01CC9B2B3A3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		4AA75FB41986B01CC9B2B3A3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* SnappingLayout_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnappingLayout_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -45,8 +45,8 @@
 		7F05A63AC1777C144D6ED739 /* Pods_SnappingLayout_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SnappingLayout_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E92795F758B28AC4C6D53FD /* Pods-SnappingLayout_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnappingLayout_Example.release.xcconfig"; path = "Target Support Files/Pods-SnappingLayout_Example/Pods-SnappingLayout_Example.release.xcconfig"; sourceTree = "<group>"; };
 		B07E184F52EB8858BA7C3B87 /* Pods_SnappingLayout_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SnappingLayout_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D457528970917DA282C61BD6 /* SnappingLayout.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SnappingLayout.podspec; path = ../SnappingLayout.podspec; sourceTree = "<group>"; };
-		E8357ADC8A0BF813659EE5E3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		D457528970917DA282C61BD6 /* SnappingLayout.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SnappingLayout.podspec; path = ../SnappingLayout.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E8357ADC8A0BF813659EE5E3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,7 +156,6 @@
 				767C00D95F0534F97AD71735 /* Pods-SnappingLayout_Tests.debug.xcconfig */,
 				23EE746B93EFBC0FDB1BD99D /* Pods-SnappingLayout_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
