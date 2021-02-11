@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'SnappingLayout_Example' do
+  pod 'SnappingLayout', :path => '../'
+
+  target 'SnappingLayout_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
