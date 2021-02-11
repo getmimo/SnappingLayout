@@ -1,6 +1,5 @@
 # SnappingLayout
 
-[![CI Status](https://img.shields.io/travis/Kévin/SnappingLayout.svg?style=flat)](https://travis-ci.org/Kévin/SnappingLayout)
 [![Version](https://img.shields.io/cocoapods/v/SnappingLayout.svg?style=flat)](https://cocoapods.org/pods/SnappingLayout)
 [![License](https://img.shields.io/cocoapods/l/SnappingLayout.svg?style=flat)](https://cocoapods.org/pods/SnappingLayout)
 [![Platform](https://img.shields.io/cocoapods/p/SnappingLayout.svg?style=flat)](https://cocoapods.org/pods/SnappingLayout)
