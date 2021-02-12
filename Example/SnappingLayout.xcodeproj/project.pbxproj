@@ -11,7 +11,6 @@
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ListViewController.swift */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
-		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		C065B0E90B797665895AB095 /* Pods_SnappingLayout_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F05A63AC1777C144D6ED739 /* Pods_SnappingLayout_Example.framework */; };
 		DC5E7D062B358807FCCBB34B /* Pods_SnappingLayout_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B07E184F52EB8858BA7C3B87 /* Pods_SnappingLayout_Tests.framework */; };
 /* End PBXBuildFile section */
@@ -37,7 +36,6 @@
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* SnappingLayout_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnappingLayout_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		72E5D3E0FAB97329B08E2549 /* Pods-SnappingLayout_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnappingLayout_Example.debug.xcconfig"; path = "Target Support Files/Pods-SnappingLayout_Example/Pods-SnappingLayout_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		767C00D95F0534F97AD71735 /* Pods-SnappingLayout_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnappingLayout_Tests.debug.xcconfig"; path = "Target Support Files/Pods-SnappingLayout_Tests/Pods-SnappingLayout_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		7F05A63AC1777C144D6ED739 /* Pods_SnappingLayout_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SnappingLayout_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -121,7 +119,6 @@
 		607FACE81AFB9204008FA782 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				607FACEB1AFB9204008FA782 /* Tests.swift */,
 				607FACE91AFB9204008FA782 /* Supporting Files */,
 			);
 			path = Tests;
@@ -336,7 +333,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACEC1AFB9204008FA782 /* Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
