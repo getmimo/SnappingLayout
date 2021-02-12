@@ -8,19 +8,24 @@ import SnappingLayout
 
 class ListViewController: UIViewController {
     
+    // MARK: - Constants
+    
+    private enum Constants {
+        static let cellReuseIdentifier = "cell"
+    }
+    
     // MARK: - Views
     
     private lazy var tableView: UITableView = {
         let tableView = UITableView()
-        tableView.register(UITableViewCell.self, forCellReuseIdentifier: self.cellReuseIdentifier)
+        tableView.register(UITableViewCell.self, forCellReuseIdentifier: Constants.cellReuseIdentifier)
         tableView.delegate = self
         tableView.dataSource = self
         tableView.translatesAutoresizingMaskIntoConstraints = false
         return tableView
     }()
     // MARK: - Properties
-    
-    private let cellReuseIdentifier = "cell"
+
     private let dataSource: [SnappingLayout.SnapPositionType] = [
         .left,
         .center,
@@ -45,7 +50,7 @@ extension ListViewController: UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: self.cellReuseIdentifier)!
+        let cell = tableView.dequeueReusableCell(withIdentifier: Constants.cellReuseIdentifier)!
 
         switch dataSource[indexPath.row] {
         case .left:
@@ -57,6 +62,14 @@ extension ListViewController: UITableViewDelegate, UITableViewDataSource {
         }
         
         return cell
+    }
+
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath, animated: false)
+        let selectedSnappingLayoutType = dataSource[indexPath.row]
+        
+        let viewController = SnappingPresentationViewController(snappingLayoutType: selectedSnappingLayoutType)
+        navigationController?.pushViewController(viewController, animated: true)
     }
 }
 
