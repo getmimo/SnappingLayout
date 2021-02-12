@@ -65,7 +65,7 @@ let snappingLayout = SnappingLayout()
 snappingLayout.snapPosition = .left
 ```
 
-![left](https://github.com/getmimo/SnappingLayout/tree/master/readmeImages/left.gif)
+![left](readmeImages/left.gif)
 
 ### Center
 
@@ -76,7 +76,7 @@ let snappingLayout = SnappingLayout()
 snappingLayout.snapPosition = .center
 ```
 
-![center](https://github.com/getmimo/SnappingLayout/tree/master/readmeImages/center.gif)
+![center](readmeImages/center.gif)
 
 ### Right
 
@@ -87,7 +87,7 @@ let snappingLayout = SnappingLayout()
 snappingLayout.snapPosition = .right
 ```
 
-![right](https://github.com/getmimo/SnappingLayout/tree/master/readmeImages/right.gif)
+![right](readmeImages/right.gif)
 
 
 ## Author
