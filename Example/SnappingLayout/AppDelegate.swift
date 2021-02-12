@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  SnappingLayout
+//  SnappingLayout_Example
 //
 
 import UIKit

@@ -1,6 +1,6 @@
 //
 //  ListViewController.swift
-//  SnappingLayout
+//  SnappingLayout_Example
 //
 
 import UIKit
