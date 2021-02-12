@@ -16,6 +16,7 @@ SnappingLayout enables to add a snap behaviour for UICollectionViews.
 It works with horizontal scrolling and there are 3 different types: left, center and right.
 You can scroll your collection view and it will automatically snap to the chosen position after decelerating.
 The snap supports all kinds of collection view configurations: with sectionInset, minimumLineSpacing, contentInset and so forth.
+DESC
 
   s.homepage         = 'https://github.com/getmimo/SnappingLayout'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
