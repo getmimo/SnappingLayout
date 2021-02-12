@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SnappingLayout'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'UICollectionViewFlowLayout with behaviour to snap the cell when scrolling horizontally.'
 
   s.description      = <<-DESC
