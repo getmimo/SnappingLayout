@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.summary          = 'UICollectionViewFlowLayout with behaviour to snap the cell when scrolling horizontally.'
 
   s.description      = <<-DESC
-SnappingLayout enables to add a snap behaviour for UICollectionViews.
+SnappingLayout enables a snap behaviour for UICollectionViews.
 It works with horizontal scrolling and there are 3 different types: left, center and right.
 You can scroll your collection view and it will automatically snap to the chosen position after decelerating.
 The snap supports all kinds of collection view configurations: with sectionInset, minimumLineSpacing, contentInset and so forth.
