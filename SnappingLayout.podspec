@@ -20,8 +20,8 @@ DESC
 
   s.homepage         = 'https://github.com/getmimo/SnappingLayout'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Kévin' => 'kvdesa@gmail.com' }
-  s.source           = { :git => 'https://github.com/Kévin/SnappingLayout.git', :tag => s.version.to_s }
+  s.author           = { 'Kévin Cardoso de Sá' => 'kvdesa@gmail.com' }
+  s.source           = { :git => 'https://github.com/getmimo/SnappingLayout.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '9.0'
   s.swift_version = '4.2'
