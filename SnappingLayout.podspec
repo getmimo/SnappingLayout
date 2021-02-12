@@ -19,7 +19,7 @@ The snap supports all kinds of collection view configurations: with sectionInset
 DESC
 
   s.homepage         = 'https://github.com/getmimo/SnappingLayout'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
+  s.license          = { :type => 'MIT', :file => 'LICENSE.md' }
   s.author           = { 'Kévin Cardoso de Sá' => 'kvdesa@gmail.com' }
   s.source           = { :git => 'https://github.com/getmimo/SnappingLayout.git', :tag => s.version.to_s }
 
