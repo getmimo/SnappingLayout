@@ -49,7 +49,7 @@ let snappingLayout = SnappingLayout()
 ```
 let collectionView = UICollectionView(frame: .zero, collectionViewLayout: snappingLayout)
 ```
-4. [Highle recommended] Set the deceleration rate of the collection view to fast:
+4. Set the deceleration rate of the collection view to fast:
 ```
 collectionView.decelerationRate = .fast
 ```
