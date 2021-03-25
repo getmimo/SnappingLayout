@@ -1,5 +1,5 @@
 PODS:
-  - SnappingLayout (0.1.0)
+  - SnappingLayout (0.1.1)
 
 DEPENDENCIES:
   - SnappingLayout (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  SnappingLayout: d74c7a6b872078a0e709b259aac9882e6b6a0683
+  SnappingLayout: d14af617007fccd709f1d4ba522405cb435a84e7
 
 PODFILE CHECKSUM: 22667ec6696fa2179231df14163a3e7c7559405c
 
-COCOAPODS: 1.8.0
+COCOAPODS: 1.10.1
