@@ -126,8 +126,8 @@ profile
 
 ### Xcode Patch ###
 # Schemes have to be shared for Carthage to work
-#!*.xcodeproj/xcshareddata/
-#*.xcodeproj/*
-#!*.xcodeproj/project.pbxproj
-#!*.xcworkspace/contents.xcworkspacedata
-#**/xcshareddata/WorkspaceSettings.xcsettings
+!*.xcodeproj/xcshareddata/
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcworkspace/contents.xcworkspacedata
+**/xcshareddata/WorkspaceSettings.xcsettings
