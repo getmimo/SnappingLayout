@@ -1,0 +1,6 @@
+framework module SnappingLayout {
+  umbrella header "SnappingLayout-umbrella.h"
+
+  export *
+  module * { export * }
+}
