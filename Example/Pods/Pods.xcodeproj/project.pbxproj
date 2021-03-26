@@ -37,11 +37,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		07B311FD61935A4046588C8F59C44C3D /* SnappingLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SnappingLayout.swift; path = SnappingLayout/Classes/SnappingLayout.swift; sourceTree = "<group>"; };
+		07B311FD61935A4046588C8F59C44C3D /* SnappingLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SnappingLayout.swift; path = Sources/SnappingLayout/Classes/SnappingLayout.swift; sourceTree = "<group>"; };
 		124D087817CAEE76A2166A9A69EB8777 /* Pods-SnappingLayout_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SnappingLayout_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		19BC817900457AD995B02ABE6E29C468 /* Pods-SnappingLayout_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SnappingLayout_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		247D6482FA0E5AF21FCA10F41A3E88E4 /* Pods-SnappingLayout_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SnappingLayout_Tests-umbrella.h"; sourceTree = "<group>"; };
-		257199AEB18F24751C5C28091237FCF2 /* SnappingLayout.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SnappingLayout.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		257199AEB18F24751C5C28091237FCF2 /* SnappingLayout.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = SnappingLayout.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		2CD851D29B307A0136BABB81A01AFD2D /* Pods-SnappingLayout_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SnappingLayout_Example-dummy.m"; sourceTree = "<group>"; };
 		2E7919A9063DDC9091081A42F130EDBD /* Pods-SnappingLayout_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SnappingLayout_Tests.modulemap"; sourceTree = "<group>"; };
 		37A1F5A48AE5C3CD977FCFF2C90DA641 /* Pods-SnappingLayout_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SnappingLayout_Tests-dummy.m"; sourceTree = "<group>"; };
@@ -49,7 +49,7 @@
 		4D68E9D76B73B34F0B8EA6A7E0F724BF /* Pods-SnappingLayout_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SnappingLayout_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		5AA4C5BFBBD9611CB1AFFD8334EFD4BF /* Pods-SnappingLayout_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SnappingLayout_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		67BD24AA556072132B9C50C8412C6B95 /* SnappingLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SnappingLayout.modulemap; sourceTree = "<group>"; };
-		6AD9ED73C41D6828C59897919B415F80 /* SnappingLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SnappingLayout.framework; path = SnappingLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AD9ED73C41D6828C59897919B415F80 /* SnappingLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SnappingLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		756E93E96303770F284A3AD32F37F1EB /* Pods-SnappingLayout_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SnappingLayout_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		8042257BEB64E2ACA4395DE15594379B /* Pods-SnappingLayout_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SnappingLayout_Example-Info.plist"; sourceTree = "<group>"; };
@@ -57,19 +57,19 @@
 		8E1F71BE781DFF70790D1E47B8FE5059 /* SnappingLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SnappingLayout-dummy.m"; sourceTree = "<group>"; };
 		90BAB5F341A7FE39B13910349909FD40 /* Pods-SnappingLayout_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SnappingLayout_Example.release.xcconfig"; sourceTree = "<group>"; };
 		973334979F47C10D528050495EF05C7E /* Pods-SnappingLayout_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SnappingLayout_Example-umbrella.h"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A8A122DE25B5C4B5E4BBF6D8F86D801C /* Pods-SnappingLayout_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SnappingLayout_Tests-Info.plist"; sourceTree = "<group>"; };
 		A9B31A905F1BF87AFE58A75D84414CB5 /* Pods-SnappingLayout_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SnappingLayout_Example-frameworks.sh"; sourceTree = "<group>"; };
-		AC58F3B0B0727A79FC7D38061C0BE968 /* LICENSE.md */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE.md; sourceTree = "<group>"; };
+		AC58F3B0B0727A79FC7D38061C0BE968 /* LICENSE.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
 		B21C2C1ABD894D8625E80C3A4D89292A /* Pods-SnappingLayout_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SnappingLayout_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		C272F8DACAE2BFB45FE601C7A95D04B3 /* SnappingLayout-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SnappingLayout-Info.plist"; sourceTree = "<group>"; };
 		C5A798B56F13939A1C63BB38DE41CC8B /* SnappingLayout.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SnappingLayout.release.xcconfig; sourceTree = "<group>"; };
 		DB5287A0453B19A2287B7BAE4F4801CD /* Pods-SnappingLayout_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SnappingLayout_Example.modulemap"; sourceTree = "<group>"; };
 		EA606BF7C03CDBE4BF56FB2AA8C39240 /* SnappingLayout.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SnappingLayout.debug.xcconfig; sourceTree = "<group>"; };
 		F4FE1486F326F50B647F160811488069 /* SnappingLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnappingLayout-umbrella.h"; sourceTree = "<group>"; };
-		F66267086207B0ED8D6E24049856A9AE /* Pods_SnappingLayout_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SnappingLayout_Example.framework; path = "Pods-SnappingLayout_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F71031294BB2606A4DDE5B2B5AD01A7A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		F79AB96E0D4B0DA8A64F37F82E3D673B /* Pods_SnappingLayout_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SnappingLayout_Tests.framework; path = "Pods-SnappingLayout_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F66267086207B0ED8D6E24049856A9AE /* Pods_SnappingLayout_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SnappingLayout_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F71031294BB2606A4DDE5B2B5AD01A7A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F79AB96E0D4B0DA8A64F37F82E3D673B /* Pods_SnappingLayout_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SnappingLayout_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -718,8 +718,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
