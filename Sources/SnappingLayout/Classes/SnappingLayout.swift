@@ -2,6 +2,8 @@
 //  HorizontalSnappingLayout.swift
 //
 
+import UIKit
+
 /// This works best when setting `collectionView.decelerationRate = .fast`.
 public class SnappingLayout: UICollectionViewFlowLayout {
 
