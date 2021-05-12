@@ -30,7 +30,6 @@ public class SnappingLayout: UICollectionViewFlowLayout {
         guard let collectionView = collectionView else {
             return super.targetContentOffset(forProposedContentOffset: proposedContentOffset, withScrollingVelocity: velocity)
         }
-        
         var offsetAdjusment = CGFloat.greatestFiniteMagnitude
         let horizontalPosition: CGFloat
         let verticalPosition: CGFloat
@@ -58,7 +57,7 @@ public class SnappingLayout: UICollectionViewFlowLayout {
                 verticalPosition = proposedContentOffset.y
             case .center:
                 horizontalPosition = proposedContentOffset.x
-                verticalPosition = proposedContentOffset.y
+                verticalPosition = proposedContentOffset.y + (collectionView.bounds.height * 0.5)
             case .top:
                 horizontalPosition = proposedContentOffset.x
                 verticalPosition = proposedContentOffset.y + collectionView.bounds.height - sectionInset.top
@@ -108,7 +107,7 @@ public class SnappingLayout: UICollectionViewFlowLayout {
                 case .left:
                     itemVerticalPosition = verticalPosition
                 case .center:
-                    itemVerticalPosition = verticalPosition
+                    itemVerticalPosition = layoutAttributes.center.y
                 case .right:
                     itemVerticalPosition = verticalPosition
                 case .top:
