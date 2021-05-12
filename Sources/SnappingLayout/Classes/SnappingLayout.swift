@@ -124,13 +124,13 @@ public class SnappingLayout: UICollectionViewFlowLayout {
                     if abs(velocity.y) < self.minimumSnapVelocity {
                         offsetAdjusment = itemVerticalPosition - verticalPosition
                     }
-                    // If the velocity is higher than the snap threshold and drag is right->left:
-                    // move to the next cell on the right.
+                    // If the velocity is higher than the snap threshold and drag is bottom->top:
+                    // move to the next cell on the bottom.
                     else if velocity.y > 0 {
                         offsetAdjusment = itemVerticalPosition - verticalPosition + (layoutAttributes.bounds.height + self.minimumLineSpacing)
                     }
-                    // If the velocity is higher than the snap threshold and drag is left->right:
-                    // move to the next cell on the left.
+                    // If the velocity is higher than the snap threshold and drag is top->bottom:
+                    // move to the next cell on the top.
                     else { // velocity.x < 0
                         offsetAdjusment = itemVerticalPosition - verticalPosition - (layoutAttributes.bounds.height + self.minimumLineSpacing)
                     }
