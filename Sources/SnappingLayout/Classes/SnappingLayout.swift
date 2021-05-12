@@ -14,6 +14,7 @@ public class SnappingLayout: UICollectionViewFlowLayout {
         case center
         case right
         case top
+        case bottom
     }
 
     // MARK: - Properties
@@ -46,7 +47,7 @@ public class SnappingLayout: UICollectionViewFlowLayout {
             case .right:
                 horizontalPosition = proposedContentOffset.x + collectionView.bounds.width - sectionInset.right
                 verticalPosition = proposedContentOffset.y
-            case .top:
+            case .top, .bottom:
                 horizontalPosition = proposedContentOffset.x
                 verticalPosition = proposedContentOffset.y
             }
@@ -61,6 +62,9 @@ public class SnappingLayout: UICollectionViewFlowLayout {
             case .top:
                 horizontalPosition = proposedContentOffset.x
                 verticalPosition = proposedContentOffset.y + collectionView.bounds.height - sectionInset.top
+            case .bottom:
+                horizontalPosition = proposedContentOffset.x
+                verticalPosition = proposedContentOffset.y + collectionView.bounds.height - sectionInset.bottom
             }
         }
         
@@ -79,7 +83,7 @@ public class SnappingLayout: UICollectionViewFlowLayout {
                     itemHorizontalPosition = layoutAttributes.center.x
                 case .right:
                     itemHorizontalPosition = layoutAttributes.frame.maxX + collectionView.contentInset.right
-                case .top:
+                case .top, .bottom:
                     itemHorizontalPosition = horizontalPosition
                 }
                 
@@ -104,14 +108,14 @@ public class SnappingLayout: UICollectionViewFlowLayout {
                 let itemVerticalPosition: CGFloat
 
                 switch snapPosition {
-                case .left:
+                case .left, .right:
                     itemVerticalPosition = verticalPosition
                 case .center:
                     itemVerticalPosition = layoutAttributes.center.y
-                case .right:
-                    itemVerticalPosition = verticalPosition
                 case .top:
                     itemVerticalPosition = layoutAttributes.frame.minY - collectionView.contentInset.top
+                case .bottom:
+                    itemVerticalPosition = layoutAttributes.frame.minY + collectionView.contentInset.bottom
                 }
                 
                 if abs(itemVerticalPosition - verticalPosition) < abs(offsetAdjusment) {
