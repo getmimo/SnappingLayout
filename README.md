@@ -143,6 +143,17 @@ snappingLayout.snapPosition = .right
 
 ![right](readmeImages/right.gif)
 
+### Vertical scrolling
+
+With vertical scrolling enabled, `.top`, `.center`, and `.bottom` can snap the cell to their respective parts of the collection view.
+
+```swift
+let snappingLayout = SnappingLayout()
+snappingLayout.snapPosition = .top
+```
+
+![top](readmeImages/top.gif)
+
 ## 💬 Contributing
 This is an open source project, so feel free to contribute. How?
 
