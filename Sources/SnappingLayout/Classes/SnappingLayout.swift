@@ -22,7 +22,7 @@ public class SnappingLayout: UICollectionViewFlowLayout {
     /// Position to snap the cells.
     public var snapPosition = SnapPositionType.center
 
-    /// Minimum horizontal velocity to trigger the snap effect.
+    /// Minimum velocity to trigger the snap effect.
     private let minimumSnapVelocity: CGFloat = 0.3
 
     // MARK: - UICollectionViewFlowLayout
