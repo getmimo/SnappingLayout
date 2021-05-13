@@ -140,6 +140,11 @@ public class SnappingLayout: UICollectionViewFlowLayout {
             
         }
 
-        return CGPoint(x: proposedContentOffset.x + offsetAdjusment, y: proposedContentOffset.y + offsetAdjusment)
+        switch scrollDirection {
+        case .horizontal:
+            return CGPoint(x: proposedContentOffset.x + offsetAdjusment, y: proposedContentOffset.y)
+        case .vertical:
+            return CGPoint(x: proposedContentOffset.x, y: proposedContentOffset.y + offsetAdjusment)
+        }
     }
 }
